@@ -13,7 +13,7 @@ import com.example.android_hw2_webtoon.model.WebtoonChar
 
 class WebtoonAdapter(var context: Context, var arrayList: ArrayList<WebtoonChar>) : RecyclerView.Adapter<WebtoonAdapter.ItemHolder>(){
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): ItemHolder {
-        val itemHolder = LayoutInflater.from(parent.context).inflate(R.layout.grid_layout_list_item, parent, false)
+        val itemHolder = LayoutInflater.from(parent.context).inflate(R.layout.grid_new, parent, false)
         return ItemHolder(itemHolder)
     }
 
